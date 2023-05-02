@@ -1,0 +1,21 @@
+<script type="text/javascript">
+    var Physics = parseInt(prompt("Enter mark of physics :- "));
+    var Chemistry = parseInt(prompt("Enter mark of Chemistry :- "));
+    var Biology = parseInt(prompt("Enter mark of Biology :- "));
+    var Mathematics  = parseInt(prompt("Enter mark of Mathematics :- "));
+    var Computer = parseInt(prompt("Enter mark of Computer :- ")); 
+    var ans = (Physics + Chemistry + Biology + Mathematics + Computer) / 5;
+    if(ans>=90 && ans<=100){
+        console.log("you have A grade");
+    }else if(ans>=80 && ans<=89){
+        console.log("you have B grade");
+    }else if(ans>=70 && ans<=79){
+        console.log("you have C grade");
+    }else if(ans>=60 && ans<=69){
+        console.log("you have D grade");
+    }else if(ans>=50 && ans<=59){
+        console.log("you have E grade");
+    }else{
+        console.log("you have F grade");
+    }
+</script>
